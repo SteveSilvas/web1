@@ -1,0 +1,74 @@
+
+/*zerando conf do navegador*/
+*{
+    margin: 0;
+    padding: 0%;
+    border: none;
+}
+/*configurando fontes e cabeçálio*/
+body {
+     background-color: plum;
+}
+h1, h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace
+}
+/*conteiner pai*/
+.container {
+   margin: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute
+}
+/*divisórias filhas*/
+.pre_casamento {
+background-color: rgba(241, 132, 241, 0.74);
+flex-grow: 20%;
+box-sizing: border-box;
+margin: 0.5;
+}
+.dia_da_noiva {
+    flex-grow: 20%;
+    box-sizing: border-box;
+    background-color: rgba(241, 132, 241, 0.74);
+    margin: 0.5;
+}
+.cerimonia {
+    flex-grow: 20%;
+    box-sizing: border-box;
+    background-color: rgba(241, 132, 241, 0.74);
+    margin: 0.5;
+
+}
+.festa {
+    flex-grow: 20%;
+    box-sizing: border-box;
+    background-color: rgba(241, 132, 241, 0.74);
+    margin: 0.5;
+}
+.lua_de_mel {
+    flex-grow: 20%;
+    box-sizing: border-box;
+    background-color: rgba(241, 132, 241, 0.74);
+    margin: 0.5;
+}
+/*configurando padrão para as imagens independente da coluna*/
+figure  img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10;
+    border: 5px solid rgb(184, 182, 182);
+    margin: 0.5;
+ }
+
+/*adicionando zoom com o passar do mouse sobre a imagem*/
+img:hover{
+    position: relative;
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    border-radius: 10px;
+}
