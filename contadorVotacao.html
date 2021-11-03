@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+				<meta charset="UTF-8">
+				
+				<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+				
+				<title>Posicionando-me</title>
+</head>
+<body>
+				<div class="all w3-pink w3-padding-large" style="height: 500pt">
+								
+								
+								<div class="header">
+												<h1 id="tituloPrincipal" class="w3-center">
+																Votação para decidir o besta
+												</h1>
+								</div>
+								
+								<div class="conteudo">
+												
+												<form action="#"class="w3-center">
+																<button class="w3-green w3-xxlarge" id="btnEu" type="button"value="Eu" onclick="opinarEu()">Eu</button>
+																
+																
+																<button class="w3-red w3-xxlarge" id="btnTu" type="button"value="Tu" onclick="opinarTu()"> Tu</button>
+												</form>
+								</div>
+								
+								
+				</div>
+				
+				
+				
+				<script >
+								var titulo;
+								var placarBesta =0;
+								var placarTu =0;
+								
+								function opinarEu(){
+								
+								titulo = document.getElementById('tituloPrincipal');
+								placarBesta++;
+								titulo.innerHTML="<h1>Todxs Sabemos que </h1> o Besta sou EU! <br>Placar : "+placarBesta +" (Bestas Eu)";
+								
+								}
+								
+													function opinarTu(){
+								
+								titulo = document.getElementById('tituloPrincipal');
+								placarTu++;
+								titulo.innerHTML="<h1>Todxs Sabemos que:</h1> <br> besta é tu, besta é tu, <br> besta é tu, besta é tu! <br>	Placar de bestas: "+ placarTu +" Bestas Tu)";
+								}
+								
+				
+				
+				
+				</script>
+</body>
+</html>
