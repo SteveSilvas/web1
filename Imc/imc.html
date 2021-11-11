@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="estilo.css" type="text/css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+	
+	<script type="text/javascript" src="js/formImc.js">
+	</script>
+	<title>Cálculo de IMC</title>
+</head>
+<body class="w3-dark-gray">
+				
+			
+				
+				
+				
+				<div class="w3-container ">
+								<div class="w3-center">
+												<h1 name="txtForm">
+																Insira seus Dados
+												</h1>
+												<h3 name="txtSubForm">
+																Cálculo de IMC
+												</h3>
+								</div>
+							
+								<div id="entrar" class="w3-center" style="margin-top:0%; border-radius:20px;"> 
+									<form action="action.php"id="formImc" method="post"  >
+										<label for= "idade" class="w3-text-white"> Idade: </label> <br>
+										<input name="idade" type="number" class="w3-text-white w3-black w3-center w3-xlarge w3-margin"></input>
+										<br>
+										<label for= "altura" class="w3-text-white"> Altura: </label> <br>
+										<input name="altura" type="number"  step=".01"class="w3-text-white w3-black w3-center  w3-xlarge w3-margin"></input>
+										
+										<br>
+										<label for= "peso" class="w3-text-white"> Peso: </label> <br>
+										<input name="peso" type="number"  step=".01"class="w3-text-white w3-black w3-center  w3-xlarge w3-margin"></input>
+										
+										<br>
+										<input type =  "submit" name="btnImc" value="calcular" onclick="" class="btnbotao w3-button w3-text-white w3-black w3-center w3-xlarge w3-margin"> </input>
+									</form>
+								
+								</div>
+								
+				</div>
+</body>
+</html>
