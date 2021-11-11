@@ -1,0 +1,194 @@
+body{
+margin:0px;
+padding:0px;
+border:0px;
+font-family: arial, helvetica, sans-serif;
+background-color:black;
+}
+
+body li:hover{
+	-moz-transform: scale(1.2);
+    	-webkit-transform: scale(1.2);
+    	-o-transform: scale(1.2);
+    	-ms-transform: scale(1.2);
+    	transform: scale(1.2);
+}
+
+
+.cabecalho{
+	
+	width: 100%;
+	background-color: black;
+	
+	
+}
+.cabecalho a {
+	text-decoration:none;
+}
+
+.menubarra{
+	height: 60pt;
+	padding: 10px;
+	marging:0px;
+	width: 100%;
+	background-color: #c3c3c3;
+	display:flex;
+		
+
+}
+.menubarra ul{
+	list-style: none;
+	position: absolute;
+
+}
+.menubarra li {
+	float:left;
+	
+ 	
+}
+
+.menubarra ul a {
+	margin:3px;
+	text-decoration:none;
+	border-radius:5px;
+	padding:3px;
+}
+
+.navertical {
+	background-color:#c3c3c3;
+	display: flex;
+	display: none;
+	
+}
+
+
+.menubarra li :hover{
+	background-color: #c3c3c3;
+	border-radius:5px;
+ 	
+}	
+.navertical li :hover{
+	background-color: #c3c3c3;
+	border-radius:5px;
+ 	
+}
+.menubarra ul :hover .navertical {
+	background-color: #c3c3c3;
+	display: block;
+	height:300px;
+	width: 200px;
+	
+}
+
+
+
+
+
+
+
+.corpo{
+	
+	background-color: black;
+	width: 100%;
+	float:left;
+padding:2%;
+}
+
+
+#centro{
+	
+	width: 66%;
+	float: left;
+	background-color: #c3c3c3;
+	margin-left:2%;
+	
+}
+/*
+#navegando{
+	width: 16%;
+	float: right;
+	background-color: #550000;
+	
+}
+*/
+
+
+
+
+#menu{
+	
+	padding-left:2%;
+	padding-right:2%;;
+	width: 30%;
+	float: left;
+	
+
+}
+
+#menu ul{
+	list-style: none;
+	padding:0px
+
+}
+#menu  a {
+	text-decoration: none;
+}
+#menu ul li{
+	border: solid 2px  black;
+	background-color:  #c3c3c3;
+	
+}
+
+
+
+.rodape{
+	padding: 20px;
+	hight:200px;
+	width: 100%;
+	background-color: #c3c3c3;}
+
+
+
+
+
+#entrar{
+	background-color: gray;
+	
+	margin-left:33.3%;
+	margin-right:33.3%;
+	padding:20px;
+	
+	
+}
+#entrar input, label{
+	margin:10px;
+	border-radius:50px;
+	height: 35px;
+}
+#cadastrar{
+	background-color: green;
+	
+	margin-left:33.3%;
+	margin-right:33.3%;
+	padding:20px;
+	
+	
+}
+#cadastrar input, label{
+	margin:10px;
+	border-radius:50px;
+	height: 35px;
+}
+
+.btnbotao:hover {
+	-moz-transform: scale(1.5);
+    	-webkit-transform: scale(1.5);
+    	-o-transform: scale(1.5);
+    	-ms-transform: scale(1.5);
+    	transform: scale(1.5);
+}
+
+#formulario input, label, textarea{
+margin-BOTTOM:2%;
+
+}

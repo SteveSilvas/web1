@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+	<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="estilo.css" type="text/css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+	<title>
+		OrderJobs - Cadastrar
+	</title>
+
+	</head>
+
+<body>
+	
+
+
+
+	<div class="cabecalho">
+		<div  class="w3-center" >
+			<a href= "index.html"><h1 class="w3-xxxlarge w3-text-white"> Order Jobs</h1> 
+				<i class="w3-text-white fa fa-cogs w3-xxxlarge" aria-hidden="true" style="float:left; margin-top:-60px; margin-left:30%">
+				</i> 
+			</a>
+	
+		</div>
+
+		<nav class="menubarra">
+			<ul>
+				<li> <a href="#"> Projetos </a> 
+					<ul class="navertical">
+						<li> <a href="#"> Individuais </a></li> <br>
+						<li> <a href="#"> Consórcio </a></li> <br>
+						<li> <a href="#"> Concluídos </a></li> <br>
+						<li> <a href="#"> Não começados</a></li> <br>
+						<li> <a href="#"> Embargados </a></li> <br>
+						<li> <a href="#"> Em desenvolvimento </a></li> <br>
+					</ul> 
+				</li>
+				<li> <a href="#">Serviços </a> </li>
+				<li> <a href="#">Almoxarifado    </a> </li>
+				<li> <a href="#">Estoque </a> 
+					<ul class="navertical">
+						<li> <a href="#"> Pessoal </a></li> <br>
+						<li> <a href="#"> Trabalhe Conosco </a></li> <br>
+						<li> <a href="#"> Contatos </a></li> <br>
+						
+					</ul> 
+				</li>
+				<li> <a href="#">Tutorial   </a> </li>
+			</ul>
+		</nav>
+
+	
+	</div>
+
+<!--  
+
+<div class="corpo">
+
+
+	<div id= "menu" class="w3-brown w3-text-black">
+		<h3 class="w3-center">Menu	 
+		</h3>
+
+		<nav class="w3-center">
+			<ul>
+			  <a href="entrar.html"> <li>Entrar </li> </a> <br>
+			  <a href="cadOrdem.html"> <li>  Gerar Ordem de Servi�o</li> </a>  </li> <br>
+			  <a href="doarlivros.html"> <li> Doar Livros </li> </a>  <br>
+			  <a href="#"> <li> Anunciar Publica��es </li> </a> <br>
+			  <a href="addlivros.html"> <li>  Cadastrar Livros </a>  </li> <br>
+			  <a href="minhabib.html"> <li> Minha Biblioteca </li>  </a>  <br>
+			  <a href="#"> <li> text </li> </a>  <br>
+			  <a href="#"> <li>text  </li> </a> <br>
+			</ul>
+		</nav>
+
+	</div>
+
+
+	<div id="centro"class= "w3-center">
+
+		<div id="dadosServico" class=" w3-center" style="margin-top:-10px; width:100%;background-color:#c3c3c3;">
+			<h3 class="w3-xxlarge w3-gray" >	 
+			Cadastrar Ordem de Servi�o
+			</h3>
+			
+			<h6 class=" w3-gray" >Dados do cliente</h6>
+			
+
+			<form action="#" method="post" class=" w3-center" id="formulario">
+
+				<label for="nome" name="">Nome Completo: </label>
+				<input name="nome" type="text" value="" placeholder= "ex: fernando jo�o pessoa">
+				</input> 
+				
+				<label for="email" name="">Email: </label>
+				<input name="email" type="email" value="" placeholder= "ex: fernando jo�o pessoa">
+				</input> 
+
+				<label for="tel" name="">Telefone: </label>
+				<input name="tel" type="tel" value="" placeholder= "ex: 011912345678">
+				</input> 
+
+				<h6 class=" w3-gray" >Dados do Local de ocorr�ncia </h6><br>
+			
+				<label for="nomeProj" name="">Nome do Projeto: </label><br>
+				<input name="nomeProj" type="text" value="" placeholder= "ex: feira de ci�ncias">
+				</input><br>
+				
+				<label for="numeroProj" name="">N�mero do Projeto: </label><br>
+				<input name="numeroProj" type="number" value="" placeholder="ex: 111.111">
+				</input><br>
+
+	
+				<label for="logradoro" name="">Rua: </label><br>
+				<input name="logradouro" type="text" value="" placeholder= "ex: fernando@pessoa.com.br">
+				</input><br> 
+				
+				<label for="numero" name="">N�mero: </label><br>
+				<input name="numero" type="number" value="" placeholder="ex: 23">
+				</input> <br>
+
+				<label for="cep" name="">Cep: </label><br>
+				<input name="cep" type="number" value="" placeholder="12345678">
+				</input><br>
+				
+				<button action="" name="btnCep">Buscar pelo cep </button>
+				<br>
+
+				<label for="bairro" name="">Bairro: </label><br>
+				<input name="bairro" type="text" value="" placeholder="ex: Santa Maria">
+				</input><br> 
+	
+				<label for="cidade" name="">Cidade: </label><br>
+				<input name="cidade" type="text" value="" placeholder="ex: S�o Paulo">
+				</input> <br>
+
+				<label for="uf" name="">Estado: </label><br>
+				<input name="uf" type="text" value="" placeholder="ex: S�o Paulo">
+				</input><br>
+		
+
+				<h6 class=" w3-gray">Dados do Servi�o</h6>
+
+				<label for="titulo" name="">T�tulo: </label><br>
+				<input name="titulo" type="text" value="" placeholder="ex: troca de torneira">
+				</input> <br>
+			
+				<label for="urgencia" name="">N�vel de urg�ncia: </label><br>
+				<input name="urgencia" type="number" value="" placeholder="ex: 5">
+				</input> <br>
+
+				<label for="descricao">Descri��o; </label><br>	
+				<textarea name="descricao" rows="6" style="width:70%;"> </textarea>
+				<br>
+				
+				<label for="ferramentas" name="">Ferramentas: </label>
+				<input name="ferramentas" type="text" value="" placeholder="ex: martelo e cerra circular">
+				</input> 
+				
+				<label for="materiais" name="">Materiais: </label>
+				<input name="materiais" type="text" value="" placeholder="ex: tabuas, calhas, caneta">
+				</input> <br>
+				
+				<label for="inicio" name="">Data de In�cio: </label>
+				<input name="inicio" type="date" value="" placeholder="ex: 01052021">
+				</input> 
+
+				<label for="conclusao" name="">Data de Conclus�o: </label>
+				<input name="conclusao" type="date" value="" placeholder="ex: 01052021">
+				</input> <br>
+
+				<label for="duracao" name="">Dura��o: </label><br>
+				<input name="duracao" type="time" value="" placeholder="ex: 01052021">
+				</input> <br>
+
+				<input type="submit" value="Incluir Servi�o" name="submit">
+			</form>
+		</div>
+	</div>
+
+	
+
+</div>
+
+
+
+<div class= rodape>
+		
+	<h5 class="w3-center ">
+		Este site � uma iniciativa popular sem fins lucrativos.
+	</h5>
+	<h6 class="w3-center">
+		Todos os direitos de autores (as) devem ser respeitados. <br>
+		As publica��es de E-books s�o de completa responsabilidade do usu�rio.
+	</h6>
+</div>
+
+ -->
+
+</body>
+
+
+
+</html>
