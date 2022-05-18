@@ -11,24 +11,24 @@ body{
 }
 .titulo{
     text-align: center;
-    color: violet;
+    color: white;
 }
 .lista{
     text-align: center;
     width: 60%;
-    font-size: 30px;
+    font-size: 3em;
     display: block;
     margin-left: 20%;
     margin-right: 20%;
     }
 .lista li{
     list-style: none;
-    padding: 1%;
-    border: solid 3px violet;
+    padding: 3%;
+    /*border: solid 3px white;*/
     background-color: rgb(10, 10, 134);
     margin: 5px;
     border-radius: 50px;
-    color: violet;
+    color: white;
 }
 .lista a{
     text-decoration: none;
