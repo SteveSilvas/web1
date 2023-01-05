@@ -1,53 +1,52 @@
-
-/*zerando conf do navegador*/
-*{
+* {
     margin: 0;
     padding: 0%;
     border: none;
 }
-/*configurando fontes e titulo*/
+
 body {
-     background-color: plum;
+    background-color: plum;
 }
-.titulop, .subTitulo {
+
+.titulop,
+.subTitulo {
     text-align: center;
     font-family: 'Courier New', Courier;
-    margin-bottom:2%;
+    margin-bottom: 2%;
     padding: 2%;
 }
 
-
-/*conteiner pai*/
 .container {
     display: flex;
     flex-direction: row;
     width: 100%;
     position: absolute;
 }
-/*divisórias filhas*/
-.pre_casamento, .dia_da_noiva, .cerimonia, .festa, .lua_de_mel {
-background-color: rgba(241, 132, 241, 0.74);
-flex-grow: 20%;
-box-sizing: border-box;
-margin: 0.5;
 
+.pre_casamento,
+.dia_da_noiva,
+.cerimonia,
+.festa,
+.lua_de_mel {
+    background-color: rgba(241, 132, 241, 0.74);
+    flex-grow: 20%;
+    box-sizing: border-box;
+    margin: 0.5;
 }
- 
- 
-/*configurando padrão para as imagens independente da coluna*/
+
 figure {
-height: 200pt;
+    height: 200pt;
 }
-figure  img{
+
+figure img {
     height: 80%;
     width: 100%;
     border-radius: 10%;
     border: 5px solid rgb(184, 182, 182);
     margin: 0.5;
- }
+}
 
-/*adicionando zoom com o passar do mouse sobre a imagem*/
-img:hover{
+img:hover {
     position: relative;
     transition-delay: 0.2s;
     -moz-transform: scale(1.5);
